@@ -8,6 +8,8 @@
 
 import UIKit
 import ChameleonFramework
+import Parse
+import Async
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,6 +25,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBarItem.appearance().image?.imageWithRenderingMode(.AlwaysOriginal)
         UIBarButtonItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: FlatWhite() /*, NSFontAttributeName: UIFont(name: "HelveticaNeue", size: 20.0)!*/], forState: .Normal)
         
+        
+        /*=============================
+        Configuration for Parse Backend
+        =============================*/
+        
+        
+        let configuration = ParseClientConfiguration {
+            $0.applicationId = "timelines"
+            $0.clientKey = ""
+            $0.server = "https://timelines-parse-server.herokuapp.com/parse"
+        }
+        Parse.initializeWithConfiguration(configuration)
+        
+        Async.background(block: {
+        do {
+            try PFUser.logInWithUsername("test", password: "test")
+            print("\(PFUser.currentUser()!.username!) logged in successfully")
+        } catch {
+            print("No logged in user :(")
+            }
+        })
+        
+        return true
+        
+        
 //        let homeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("TLTableView")
 //        let leftViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("TLCollectionView")
 //        
@@ -32,7 +59,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
 //        self.window?.rootViewController = revealController
         
-        UIApplication.sharedApplication().setStatusBarStyle(.LightContent, animated: false)
+//        UIApplication.sharedApplication().setStatusBarStyle(.LightContent, animated: false)
 
         return true
     }

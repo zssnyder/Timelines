@@ -11,12 +11,13 @@ import ChameleonFramework
 import SWRevealViewController
 import DZNEmptyDataSet
 import EasyAnimation
+import Async
 
 class TLHomeViewController : UIViewController {
     
     var menuButton : UIBarButtonItem!
     let menuIcon = UIImage(named: "menu_icon")
-    var expandedIndexPath : NSIndexPath = NSIndexPath(forRow: 0, inSection: 0)
+    var expandedIndexPath : NSIndexPath = NSIndexPath()
     let imageArray = [UIImage(named: "IMG_1003"), UIImage(named: "IMG_1528"), UIImage(named: "IMG_1346"), UIImage(named: "IMG_0727"), UIImage(named: "IMG_0509"), UIImage(named: "IMG_0535")]
     
     @IBOutlet weak var TableView: TLTableView!
@@ -29,7 +30,7 @@ class TLHomeViewController : UIViewController {
         menuButton = UIBarButtonItem(image: scaledMenu, style: .Plain, target: self, action: #selector(SWRevealViewController.revealToggle(_:)))
         
         
-        //Initiates side menu segue
+        //Initializes side menu segue
         let revealController = self.revealViewController()
         if revealController != nil {
             revealController.frontViewShadowRadius = 5.0
@@ -57,9 +58,9 @@ class TLHomeViewController : UIViewController {
         TableView.rowHeight = UITableViewAutomaticDimension
         TableView.backgroundColor = AppConfigurationSettings.TableView().background
         
-        let row = 0
-        let section = 0
-        expandedIndexPath = NSIndexPath(forRow: row, inSection: section)
+//        let row = 0
+//        let section = 0
+//        expandedIndexPath = NSIndexPath(forRow: row, inSection: section)
         
     }
     
@@ -78,10 +79,10 @@ extension TLHomeViewController : UITableViewDataSource {
         let cell = tableView.dequeueReusableCellWithIdentifier(TableView.reusableId) as! TLCell
         let image = imageArray[indexPath.row]
         
+        
         cell.lblTitle.text = " Timeline \(indexPath.row + 1) "
         cell.tlImageView.image = image
-        cell.containerView.backgroundColor = AverageColorFromImage(image!).colorWithAlphaComponent(0.4)
-        
+        cell.containerView.backgroundColor = AverageColorFromImage(image!).colorWithAlphaComponent(AppConfigurationSettings.Cell().colorOverlayAlpha).colorWithMinimumSaturation(0.3).lightenByPercentage(0.2)
         
         
         return cell
