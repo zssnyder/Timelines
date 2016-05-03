@@ -1,0 +1,8 @@
+CLANG_MODULES_AUTOLINK = YES
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/Alamofire.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Async.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ChameleonFramework.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/DZNEmptyDataSet.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/EasyAnimation.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/GPUImage.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/MGSwipeTableCell.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/MXParallaxHeader.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/REFormattedNumberField.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/RETableViewManager.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/REValidation.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SWRevealViewController.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/UITableViewZoomController.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "Async" -framework "ChameleonFramework" -framework "DZNEmptyDataSet" -framework "EasyAnimation" -framework "GPUImage" -framework "MGSwipeTableCell" -framework "MXParallaxHeader" -framework "REFormattedNumberField" -framework "RETableViewManager" -framework "REValidation" -framework "SWRevealViewController" -framework "UITableViewZoomController"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Timelines
+PODS_ROOT = ${SRCROOT}/Pods

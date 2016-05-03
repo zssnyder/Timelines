@@ -1,0 +1,6 @@
+framework module UITableViewZoomController {
+  umbrella header "UITableViewZoomController-umbrella.h"
+
+  export *
+  module * { export * }
+}

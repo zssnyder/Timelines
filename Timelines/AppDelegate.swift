@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ChameleonFramework
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName : FlatWhite()], forState: .Selected)
+        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName : FlatWhite()], forState: .Normal)
+        UITabBarItem.appearance().image?.imageWithRenderingMode(.AlwaysOriginal)
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: FlatWhite() /*, NSFontAttributeName: UIFont(name: "HelveticaNeue", size: 20.0)!*/], forState: .Normal)
+        
+//        let homeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("TLTableView")
+//        let leftViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("TLCollectionView")
+//        
+//        let revealController = PKRevealController(frontViewController: homeViewController, leftViewController: leftViewController)
+//        revealController.recognizesResetTapOnFrontView = true
+//        revealController.definesPresentationContext = true 
+        
+//        self.window?.rootViewController = revealController
+        
+        UIApplication.sharedApplication().setStatusBarStyle(.LightContent, animated: false)
+
         return true
     }
 
