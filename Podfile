@@ -5,6 +5,7 @@ target 'Timelines' do
 
 	use_frameworks!
 
+	pod 'Parse'
 	pod 'ChameleonFramework/Swift', '~> 2.0.3'
 	pod 'UITableViewZoomController', '~> 1.0'
     pod 'Async', :git => 'https://github.com/JohnCoates/Async.git'
