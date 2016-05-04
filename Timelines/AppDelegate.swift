@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 import ChameleonFramework
 
 @UIApplicationMain
@@ -22,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName : FlatWhite()], forState: .Normal)
         UITabBarItem.appearance().image?.imageWithRenderingMode(.AlwaysOriginal)
         UIBarButtonItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: FlatWhite() /*, NSFontAttributeName: UIFont(name: "HelveticaNeue", size: 20.0)!*/], forState: .Normal)
+        
+        
         
 //        let homeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("TLTableView")
 //        let leftViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("TLCollectionView")
