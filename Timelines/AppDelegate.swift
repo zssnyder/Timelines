@@ -8,6 +8,7 @@
 
 import UIKit
 import Parse
+import Async
 import ChameleonFramework
 
 @UIApplicationMain
@@ -24,7 +25,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBarItem.appearance().image?.imageWithRenderingMode(.AlwaysOriginal)
         UIBarButtonItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: FlatWhite() /*, NSFontAttributeName: UIFont(name: "HelveticaNeue", size: 20.0)!*/], forState: .Normal)
         
+        /*=============================
+         Configuration for Parse Backend
+         =============================*/
         
+        
+        let configuration = ParseClientConfiguration {
+            $0.applicationId = "timelines"
+            $0.clientKey = ""
+            $0.server = "https://timelines-parse-server.herokuapp.com/parse"
+        }
+        Parse.initializeWithConfiguration(configuration)
+        
+        Async.background(block: {
+            do {
+                try PFUser.logInWithUsername("test", password: "test")
+                print("\n\(PFUser.currentUser()!.username!) logged in successfully\n")
+            } catch {
+                print("No logged in user :(")
+            }
+        })
         
 //        let homeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("TLTableView")
 //        let leftViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("TLCollectionView")
