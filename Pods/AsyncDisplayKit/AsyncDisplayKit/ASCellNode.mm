@@ -10,6 +10,7 @@
 
 #import "ASInternalHelpers.h"
 #import "ASEqualityHelpers.h"
+#import "ASDisplayNodeInternal.h"
 #import <AsyncDisplayKit/_ASDisplayView.h>
 #import <AsyncDisplayKit/ASDisplayNode+Subclasses.h>
 #import <AsyncDisplayKit/ASDisplayNode+Beta.h>
@@ -120,10 +121,10 @@
   ASDisplayNodeAssert(!layerBacked, @"ASCellNode does not support layer-backing.");
 }
 
-- (void)setNeedsLayout
+- (void)__setNeedsLayout
 {
   CGSize oldSize = self.calculatedSize;
-  [super setNeedsLayout];
+  [super __setNeedsLayout];
   [self didRelayoutFromOldSize:oldSize toNewSize:self.calculatedSize];
 }
 
@@ -163,7 +164,7 @@
 
 - (void)didRelayoutFromOldSize:(CGSize)oldSize toNewSize:(CGSize)newSize
 {
-  if (_layoutDelegate != nil && self.isNodeLoaded) {
+  if (_layoutDelegate != nil) {
     ASPerformBlockOnMainThread(^{
       BOOL sizeChanged = !CGSizeEqualToSize(oldSize, newSize);
       [_layoutDelegate nodeDidRelayout:self sizeChanged:sizeChanged];

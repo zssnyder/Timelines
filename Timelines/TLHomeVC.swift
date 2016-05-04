@@ -7,13 +7,14 @@
 //
 
 import Foundation
+import AsyncDisplayKit
 import ChameleonFramework
 import SWRevealViewController
 import DZNEmptyDataSet
 import EasyAnimation
 import Async
 
-class TLHomeViewController : UIViewController {
+class TLHomeViewController : ASViewController {
     
     var menuButton : UIBarButtonItem!
     let menuIcon = UIImage(named: "menu_icon")
