@@ -13,8 +13,8 @@
 		17269A0B1BC4362900630B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17269A091BC4362900630B6F /* LaunchScreen.storyboard */; };
 		17269A161BC4362A00630B6F /* TimelinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17269A151BC4362A00630B6F /* TimelinesTests.swift */; };
 		17269A211BC4362A00630B6F /* TimelinesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17269A201BC4362A00630B6F /* TimelinesUITests.swift */; };
-		17269A3E1BC49A2500630B6F /* TLTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17269A3D1BC49A2500630B6F /* TLTableVC.swift */; };
-		173BBEB11C927852003D350E /* TLRevealVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173BBEB01C927852003D350E /* TLRevealVC.swift */; };
+		17269A3E1BC49A2500630B6F /* TLTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17269A3D1BC49A2500630B6F /* TLTableViewController.swift */; };
+		173BBEB11C927852003D350E /* TLRevealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173BBEB01C927852003D350E /* TLRevealController.swift */; };
 		173BBEB31C93C37C003D350E /* TLHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173BBEB21C93C37C003D350E /* TLHomeVC.swift */; };
 		173BBEB51C93C481003D350E /* TLNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173BBEB41C93C481003D350E /* TLNavigationVC.swift */; };
 		173BBEB71C93C62F003D350E /* TLSideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173BBEB61C93C62F003D350E /* TLSideMenuVC.swift */; };
@@ -22,7 +22,7 @@
 		173BBEC51C94F874003D350E /* TLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173BBEC41C94F874003D350E /* TLImage.swift */; };
 		173F54DA1C8BE3E700751CC1 /* IMG_1003.png in Resources */ = {isa = PBXBuildFile; fileRef = 173F54D91C8BE3E600751CC1 /* IMG_1003.png */; };
 		173F54DC1C8BFA5100751CC1 /* title_image_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 173F54DB1C8BFA5100751CC1 /* title_image_default.png */; };
-		1781A0EF1BC71B4000AB1302 /* TLLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781A0EE1BC71B4000AB1302 /* TLLoginVC.swift */; };
+		1781A0EF1BC71B4000AB1302 /* TLMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781A0EE1BC71B4000AB1302 /* TLMainViewController.swift */; };
 		17975D971CA457F800CA67A1 /* avatar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17975D961CA457F800CA67A1 /* avatar_icon.png */; };
 		17975D991CA4647300CA67A1 /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 17975D981CA4647300CA67A1 /* arrow_right.png */; };
 		17975D9B1CA4B7A300CA67A1 /* IMG_0367.png in Resources */ = {isa = PBXBuildFile; fileRef = 17975D9A1CA4B7A300CA67A1 /* IMG_0367.png */; };
@@ -46,9 +46,7 @@
 		17C54D4C1C987180005E5E68 /* plus_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C54D4B1C987180005E5E68 /* plus_icon.png */; };
 		17D779D31C868663002C4C87 /* TLCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D779D21C868663002C4C87 /* TLCollectionView.swift */; };
 		17ED18C41BD96C3A00025AB8 /* TLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED18C31BD96C3A00025AB8 /* TLTabBarController.swift */; };
-		25D637B5040099ABD94D512D /* Pods_Timelines.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B6382C02B71ABB7578B25 /* Pods_Timelines.framework */; };
-		2CEBB369A866D0FF86085792 /* libPods-TimelinesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4258E1AB8C1F34803B3A8740 /* libPods-TimelinesTests.a */; };
-		F30475607B54CFDD5C7B7498 /* libPods-TimelinesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5CF10B65502A3DC0C6B69A /* libPods-TimelinesUITests.a */; };
+		F3DC268143A6E25E544E9BFB /* Pods_Timelines.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9E1592ACBF14A38B2CE07C /* Pods_Timelines.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +67,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14B6AB6C997FB4E021C2E0C4 /* Pods-Timelines.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timelines.release.xcconfig"; path = "Pods/Target Support Files/Pods-Timelines/Pods-Timelines.release.xcconfig"; sourceTree = "<group>"; };
 		172699FD1BC4362900630B6F /* Timelines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timelines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17269A001BC4362900630B6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17269A051BC4362900630B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,8 +80,8 @@
 		17269A201BC4362A00630B6F /* TimelinesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelinesUITests.swift; sourceTree = "<group>"; };
 		17269A221BC4362A00630B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17269A2E1BC444BF00630B6F /* Timelines-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timelines-Bridging-Header.h"; sourceTree = "<group>"; };
-		17269A3D1BC49A2500630B6F /* TLTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLTableVC.swift; sourceTree = "<group>"; };
-		173BBEB01C927852003D350E /* TLRevealVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLRevealVC.swift; sourceTree = "<group>"; };
+		17269A3D1BC49A2500630B6F /* TLTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLTableViewController.swift; sourceTree = "<group>"; };
+		173BBEB01C927852003D350E /* TLRevealController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLRevealController.swift; sourceTree = "<group>"; };
 		173BBEB21C93C37C003D350E /* TLHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLHomeVC.swift; sourceTree = "<group>"; };
 		173BBEB41C93C481003D350E /* TLNavigationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLNavigationVC.swift; sourceTree = "<group>"; };
 		173BBEB61C93C62F003D350E /* TLSideMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLSideMenuVC.swift; sourceTree = "<group>"; };
@@ -92,7 +89,7 @@
 		173BBEC41C94F874003D350E /* TLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLImage.swift; sourceTree = "<group>"; };
 		173F54D91C8BE3E600751CC1 /* IMG_1003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1003.png; sourceTree = "<group>"; };
 		173F54DB1C8BFA5100751CC1 /* title_image_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_image_default.png; sourceTree = "<group>"; };
-		1781A0EE1BC71B4000AB1302 /* TLLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLLoginVC.swift; sourceTree = "<group>"; };
+		1781A0EE1BC71B4000AB1302 /* TLMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLMainViewController.swift; sourceTree = "<group>"; };
 		17975D961CA457F800CA67A1 /* avatar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar_icon.png; sourceTree = "<group>"; };
 		17975D981CA4647300CA67A1 /* arrow_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_right.png; sourceTree = "<group>"; };
 		17975D9A1CA4B7A300CA67A1 /* IMG_0367.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0367.png; sourceTree = "<group>"; };
@@ -116,14 +113,9 @@
 		17C54D4B1C987180005E5E68 /* plus_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_icon.png; sourceTree = "<group>"; };
 		17D779D21C868663002C4C87 /* TLCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLCollectionView.swift; sourceTree = "<group>"; };
 		17ED18C31BD96C3A00025AB8 /* TLTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLTabBarController.swift; sourceTree = "<group>"; };
-		4258E1AB8C1F34803B3A8740 /* libPods-TimelinesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimelinesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B8DF3DD63FC1288A7A6B433 /* Pods-Timelines.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timelines.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Timelines/Pods-Timelines.debug.xcconfig"; sourceTree = "<group>"; };
-		91E16AD2534A2B358AAC6CFB /* Pods-TimelinesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimelinesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimelinesTests/Pods-TimelinesTests.release.xcconfig"; sourceTree = "<group>"; };
-		CD5CF10B65502A3DC0C6B69A /* libPods-TimelinesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimelinesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD7BA2B2FC52D8DE1F2033C6 /* Pods-TimelinesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimelinesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimelinesUITests/Pods-TimelinesUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CF1B6382C02B71ABB7578B25 /* Pods_Timelines.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timelines.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDD7B7F3C20203DC0239B397 /* Pods-TimelinesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimelinesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimelinesUITests/Pods-TimelinesUITests.release.xcconfig"; sourceTree = "<group>"; };
-		FD75D2CA3C20963CBFDAD911 /* Pods-TimelinesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimelinesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimelinesTests/Pods-TimelinesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2354B0BFBC0D60CA3BCBC0DC /* Pods-Timelines.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timelines.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Timelines/Pods-Timelines.debug.xcconfig"; sourceTree = "<group>"; };
+		4530CA49042E36C535EB0AB0 /* Pods-Timelines.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timelines.release.xcconfig"; path = "Pods/Target Support Files/Pods-Timelines/Pods-Timelines.release.xcconfig"; sourceTree = "<group>"; };
+		9A9E1592ACBF14A38B2CE07C /* Pods_Timelines.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timelines.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25D637B5040099ABD94D512D /* Pods_Timelines.framework in Frameworks */,
+				F3DC268143A6E25E544E9BFB /* Pods_Timelines.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +131,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CEBB369A866D0FF86085792 /* libPods-TimelinesTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +138,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F30475607B54CFDD5C7B7498 /* libPods-TimelinesUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,8 +151,8 @@
 				17269A141BC4362A00630B6F /* TimelinesTests */,
 				17269A1F1BC4362A00630B6F /* TimelinesUITests */,
 				172699FE1BC4362900630B6F /* Products */,
-				BABB8D9215BB6C0A3D44406C /* Pods */,
-				3A4122B8772607BDDA169D16 /* Frameworks */,
+				B3CD653AD925E8100A686B85 /* Pods */,
+				FA680257864F0D3F04D2F899 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -253,11 +243,11 @@
 		1781A0F01BC71B4C00AB1302 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				173BBEB01C927852003D350E /* TLRevealVC.swift */,
+				173BBEB01C927852003D350E /* TLRevealController.swift */,
 				173BBEB21C93C37C003D350E /* TLHomeVC.swift */,
 				173BBEB61C93C62F003D350E /* TLSideMenuVC.swift */,
-				1781A0EE1BC71B4000AB1302 /* TLLoginVC.swift */,
-				17269A3D1BC49A2500630B6F /* TLTableVC.swift */,
+				1781A0EE1BC71B4000AB1302 /* TLMainViewController.swift */,
+				17269A3D1BC49A2500630B6F /* TLTableViewController.swift */,
 				17D779D21C868663002C4C87 /* TLCollectionView.swift */,
 			);
 			name = ViewControllers;
@@ -289,27 +279,21 @@
 			name = TableView;
 			sourceTree = "<group>";
 		};
-		3A4122B8772607BDDA169D16 /* Frameworks */ = {
+		B3CD653AD925E8100A686B85 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF1B6382C02B71ABB7578B25 /* Pods_Timelines.framework */,
-				4258E1AB8C1F34803B3A8740 /* libPods-TimelinesTests.a */,
-				CD5CF10B65502A3DC0C6B69A /* libPods-TimelinesUITests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BABB8D9215BB6C0A3D44406C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5B8DF3DD63FC1288A7A6B433 /* Pods-Timelines.debug.xcconfig */,
-				14B6AB6C997FB4E021C2E0C4 /* Pods-Timelines.release.xcconfig */,
-				FD75D2CA3C20963CBFDAD911 /* Pods-TimelinesTests.debug.xcconfig */,
-				91E16AD2534A2B358AAC6CFB /* Pods-TimelinesTests.release.xcconfig */,
-				CD7BA2B2FC52D8DE1F2033C6 /* Pods-TimelinesUITests.debug.xcconfig */,
-				EDD7B7F3C20203DC0239B397 /* Pods-TimelinesUITests.release.xcconfig */,
+				2354B0BFBC0D60CA3BCBC0DC /* Pods-Timelines.debug.xcconfig */,
+				4530CA49042E36C535EB0AB0 /* Pods-Timelines.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA680257864F0D3F04D2F899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A9E1592ACBF14A38B2CE07C /* Pods_Timelines.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,12 +303,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17269A251BC4362A00630B6F /* Build configuration list for PBXNativeTarget "Timelines" */;
 			buildPhases = (
-				58BA50E9147C4260E9C117D0 /* 📦 Check Pods Manifest.lock */,
+				2815266C2081791EDAC74E64 /* Check Pods Manifest.lock */,
 				172699F91BC4362900630B6F /* Sources */,
 				172699FA1BC4362900630B6F /* Frameworks */,
 				172699FB1BC4362900630B6F /* Resources */,
-				3EE7F1E70AA4C073DC1627A8 /* 📦 Embed Pods Frameworks */,
-				6EDFA80563733D518A9948C1 /* 📦 Copy Pods Resources */,
+				C81038A9793CBCF9FD8DEAC0 /* Embed Pods Frameworks */,
+				BAA73BC6F5CEDF68DBF71099 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,12 +323,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17269A281BC4362A00630B6F /* Build configuration list for PBXNativeTarget "TimelinesTests" */;
 			buildPhases = (
-				73D3FE01D436BB82EE624419 /* 📦 Check Pods Manifest.lock */,
 				17269A0D1BC4362A00630B6F /* Sources */,
 				17269A0E1BC4362A00630B6F /* Frameworks */,
 				17269A0F1BC4362A00630B6F /* Resources */,
-				700121749F86ED70D57153FB /* 📦 Embed Pods Frameworks */,
-				2447D8217B73FC61A662924A /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -360,11 +341,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17269A2B1BC4362A00630B6F /* Build configuration list for PBXNativeTarget "TimelinesUITests" */;
 			buildPhases = (
-				C358C13518DF81E1B01C1B81 /* 📦 Check Pods Manifest.lock */,
 				17269A181BC4362A00630B6F /* Sources */,
 				17269A191BC4362A00630B6F /* Frameworks */,
 				17269A1A1BC4362A00630B6F /* Resources */,
-				2693BF76D051CEF4F0020833 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -467,59 +446,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2447D8217B73FC61A662924A /* 📦 Copy Pods Resources */ = {
+		2815266C2081791EDAC74E64 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimelinesTests/Pods-TimelinesTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2693BF76D051CEF4F0020833 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimelinesUITests/Pods-TimelinesUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3EE7F1E70AA4C073DC1627A8 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Timelines/Pods-Timelines-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		58BA50E9147C4260E9C117D0 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,14 +461,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		6EDFA80563733D518A9948C1 /* 📦 Copy Pods Resources */ = {
+		BAA73BC6F5CEDF68DBF71099 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,49 +476,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Timelines/Pods-Timelines-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		700121749F86ED70D57153FB /* 📦 Embed Pods Frameworks */ = {
+		C81038A9793CBCF9FD8DEAC0 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimelinesTests/Pods-TimelinesTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		73D3FE01D436BB82EE624419 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C358C13518DF81E1B01C1B81 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Timelines/Pods-Timelines-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -598,12 +502,12 @@
 				173BBEB51C93C481003D350E /* TLNavigationVC.swift in Sources */,
 				17C095AF1CA398750098477B /* AppConfigurationSettings.swift in Sources */,
 				179C5B8C1C176AE100A75063 /* TLCell.swift in Sources */,
-				1781A0EF1BC71B4000AB1302 /* TLLoginVC.swift in Sources */,
+				1781A0EF1BC71B4000AB1302 /* TLMainViewController.swift in Sources */,
 				173BBEC51C94F874003D350E /* TLImage.swift in Sources */,
 				173BBEB71C93C62F003D350E /* TLSideMenuVC.swift in Sources */,
-				17269A3E1BC49A2500630B6F /* TLTableVC.swift in Sources */,
+				17269A3E1BC49A2500630B6F /* TLTableViewController.swift in Sources */,
 				17C302211C97A82A00973BE9 /* TLTableView.swift in Sources */,
-				173BBEB11C927852003D350E /* TLRevealVC.swift in Sources */,
+				173BBEB11C927852003D350E /* TLRevealController.swift in Sources */,
 				17269A011BC4362900630B6F /* AppDelegate.swift in Sources */,
 				17BFCE271BFFDF73009F086B /* TLNavigationBar.swift in Sources */,
 				173BBEB31C93C37C003D350E /* TLHomeVC.swift in Sources */,
@@ -746,7 +650,7 @@
 		};
 		17269A261BC4362A00630B6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B8DF3DD63FC1288A7A6B433 /* Pods-Timelines.debug.xcconfig */;
+			baseConfigurationReference = 2354B0BFBC0D60CA3BCBC0DC /* Pods-Timelines.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -766,7 +670,7 @@
 		};
 		17269A271BC4362A00630B6F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14B6AB6C997FB4E021C2E0C4 /* Pods-Timelines.release.xcconfig */;
+			baseConfigurationReference = 4530CA49042E36C535EB0AB0 /* Pods-Timelines.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -785,7 +689,6 @@
 		};
 		17269A291BC4362A00630B6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD75D2CA3C20963CBFDAD911 /* Pods-TimelinesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TimelinesTests/Info.plist;
@@ -798,7 +701,6 @@
 		};
 		17269A2A1BC4362A00630B6F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91E16AD2534A2B358AAC6CFB /* Pods-TimelinesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TimelinesTests/Info.plist;
@@ -811,7 +713,6 @@
 		};
 		17269A2C1BC4362A00630B6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD7BA2B2FC52D8DE1F2033C6 /* Pods-TimelinesUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TimelinesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -824,7 +725,6 @@
 		};
 		17269A2D1BC4362A00630B6F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDD7B7F3C20203DC0239B397 /* Pods-TimelinesUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TimelinesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -31,8 +31,6 @@ struct AppConfigurationSettings {
         let subtitleTextColor = FlatWhite()
         
         let background = FlatBlack()
-        
-        let colorOverlayAlpha : CGFloat = 0.6
     }
     
     struct TableView {

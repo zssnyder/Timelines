@@ -8,17 +8,15 @@ target 'Timelines' do
 	pod 'Parse'
 	pod 'ChameleonFramework/Swift', '~> 2.0.3'
 	pod 'UITableViewZoomController', '~> 1.0'
-  pod 'Async', :git => 'https://github.com/JohnCoates/Async.git'
-  pod 'SWRevealViewController'
-  pod 'GPUImage'
-  pod 'Alamofire'
-  pod 'DZNEmptyDataSet'
-  pod 'RETableViewManager'
-  pod 'MGSwipeTableCell'
-  pod 'MXParallaxHeader'
-  pod 'EasyAnimation'
-  
-  pod 'AsyncDisplayKit'
+    pod 'Async', :git => 'https://github.com/JohnCoates/Async.git'
+    pod 'SWRevealViewController'
+    pod 'GPUImage'
+    pod 'Alamofire'
+    pod 'DZNEmptyDataSet'
+    pod 'RETableViewManager'
+    pod 'MGSwipeTableCell'
+    pod 'MXParallaxHeader'
+    pod 'EasyAnimation'
 
 end
 
