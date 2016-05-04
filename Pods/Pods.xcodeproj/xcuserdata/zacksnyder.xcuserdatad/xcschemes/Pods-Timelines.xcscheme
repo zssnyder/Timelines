@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "223CAE1A95D8DC1D53E383AF"
+               BlueprintIdentifier = "FB29140CD9202CBB298C69C5"
                BuildableName = "Pods_Timelines.framework"
                BlueprintName = "Pods-Timelines"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF5623A408FC0F9C817067C2"
+               BlueprintIdentifier = "DD0B93EC3E08421EF6333D5A"
                BuildableName = "REFormattedNumberField.framework"
                BlueprintName = "REFormattedNumberField"
                ReferencedContainer = "container:Pods.xcodeproj">

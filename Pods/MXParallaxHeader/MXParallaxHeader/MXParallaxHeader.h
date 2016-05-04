@@ -22,7 +22,6 @@
 
 #import <UIKit/UIKit.h>
 
-
 /**
  The parallac header mode.
  */
@@ -35,6 +34,10 @@ typedef NS_ENUM(NSInteger, MXParallaxHeaderMode) {
      The option to scale the content to fill the size of the header. Some portion of the content may be clipped to fill the header’s bounds.
      */
     MXParallaxHeaderModeFill,
+    /**
+     The option to scale the content to fill the size of the header and aligned at the top in the header's bounds.
+     */
+    MXParallaxHeaderModeTopFill,
     /**
      The option to center the content aligned at the top in the header's bounds.
      */

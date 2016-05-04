@@ -8,201 +8,146 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>Async.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
+		</dict>
+		<key>AsyncDisplayKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Bolts.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>16</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>ChameleonFramework.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>DZNEmptyDataSet.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>EasyAnimation.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>GPUImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
 		</dict>
 		<key>MGSwipeTableCell.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>7</integer>
 		</dict>
 		<key>MXParallaxHeader.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>8</integer>
+		</dict>
+		<key>PINCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINRemoteImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Parse.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>17</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-Timelines.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>9</integer>
 		</dict>
 		<key>REFormattedNumberField.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>10</integer>
 		</dict>
 		<key>RETableViewManager-RETableViewManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>12</integer>
 		</dict>
 		<key>RETableViewManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>11</integer>
 		</dict>
 		<key>REValidation.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>13</integer>
 		</dict>
 		<key>SWRevealViewController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>14</integer>
-		</dict>
-		<key>UITableViewZoomController.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>15</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0003B2F758E50C533787757456F07DF8</key>
+		<key>178AD6EC423E7BA9209B08CA87E8A4EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1122EB2534300FD4C3083DD09239D8BE</key>
+		<key>1CD9ACC113D9ED0F0EE97AED14EA2E23</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>136CADB898DB8FBC68F70C4E4B861357</key>
+		<key>1D056AAD7710A706B5970992BA9BE5D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>196F3D7C589DD466E3B8988207C4063A</key>
+		<key>2D03A43011E8133DF8F2E7C2215A3D71</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1DC39DDA98C02C6404F9FEB4E90F4177</key>
+		<key>36D988A8EFCB9E85FFDE084CB8880C8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>29C5EEF4E65F10A9AC26ACE2F5930C60</key>
+		<key>445A5A26D94C6D35E9252A4170AB106B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2A333F22A0BB5A4CC3A744913456ECCA</key>
+		<key>4578844F46EAB3317524041E9F9E5D7C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2D238201FE238A7C9459F4208CD65B4A</key>
+		<key>4A884234BC90EE97BAEC52B3B1E12638</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3B3C5E0DC9B6056BC15EB629C399482F</key>
+		<key>6054B73B3190985B7F56361F3F2D15E9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3E9E1DA3DEBD0CD061C7B6E9DFDFAA8F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3F67EE05E329906C1025D9B8B6409C86</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>408B626A8B75AB27E0BFADB3D8FA5955</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>474F2B47627E77385106AE217D252548</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4CA3EFDFDF679C011CBCC975F7AA1881</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5446763DE8DA39B68B54F291FB366B77</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5A55F880F92FEAE3B270A2B1E760DEAA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6233A6E5CDE86109D2671668916DEEBC</key>
+		<key>659BB5646A478BAAD08BB97023744B47</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -212,7 +157,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90521EB2E859CF4E743275BDD0BE01C4</key>
+		<key>91806C71EA03B92DA64EA50192001495</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -222,22 +167,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96CEFF807FC044FC904E16C8C45FBAAE</key>
+		<key>9F727AC4AACA64CE69FC28592431083C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>994AFCF9D2764CDA79204E54AB1D839A</key>
+		<key>AA5B147122AB8C7ACFD155A25C354969</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B92A11B97D424F5A26C9ECCF640935B3</key>
+		<key>AE44B83E3B32BDBC09FBDE071DE0D947</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E253CDFFF9CEB0ADFE5EA6924A61D44D</key>
+		<key>BFC9DFCD7B6572A236C84B986AC693D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -247,12 +192,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F3694F6F5240C69A8CF559F47F494CE9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FBBFFFB51E9D5E4D66690CE1B7B49C9F</key>
+		<key>FBE8D0F82691888F6D8E23FB850476D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
